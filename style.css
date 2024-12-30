@@ -141,7 +141,8 @@ h4 {
 .about-content h1 {
   font-size: 2.5rem;
   margin-bottom: 10px;
-  color: #f9004d; /* Adjusted color to match your theme */
+  color: #f9004d; 
+  
 }
 
 .about-content h2 {
@@ -196,6 +197,10 @@ h4 {
   border: 1px solid #444;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.section ::selection{
+  background-color: white;
+  color: black;
 }
 
 #projects a {
